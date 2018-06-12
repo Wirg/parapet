@@ -1,0 +1,21 @@
+{
+  "name": "parapet-exception",
+  "version": "1.0.0",
+  "description": "Exception Helpers for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel source --presets babel-preset-es2015 --out-dir distribution"
+  },
+  "keywords": [
+    "parapet",
+    "javascript",
+    "exception",
+    "error"
+  ],
+  "author": "Wirg",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
